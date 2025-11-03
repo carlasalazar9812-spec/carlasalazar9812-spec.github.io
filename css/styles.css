@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+html,
+
+body {
+  height: 100%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 0px;
+  background: linear-gradient(to right,rgb(173, 32, 98),rgb(148, 37, 105),blue);
+  line-height: 1.6;
+
+}
+
+header {
+  background-color:#f3eded;
+  color: #333;
+  background: linear-gradient(to right,rgb(173, 32, 98),rgb(148, 37, 105),blue);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px;
+
+}
+
+.principal {
+  flex: 0px;
+  background: linear-gradient(to right,rgb(173, 32, 98),rgb(148, 37, 105),blue);
+  font-size: 22px;
+}
+
+.parrafo {
+  color: rgb(8, 8, 8);
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: line;
+  text-transform: uppercase;
+  padding: 100px;
+  border-width: 100px;
+  border-style: dashed;
+  border-color: rgb(39, 201, 104);
+  border-radius: 20vw;
+  background: linear-gradient(to right,rgb(173, 32, 98),rgb(148, 37, 105),blue);
+
+}
+
+.fecha {
+  position: relative;
+  right: 0;
+  font-size: 20px;
+  align-items:center;
+  justify-content: flex-start;
+}
+
+.imagen {
+  max-width: 300px;
+  height: 150px;
+  background-size: cover;
+  clip-path: circle(50%);
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 26ovw;
+  margin: 20px auto;
+  box-shadow: i;
+  max-width: fit-content;
+  background: linear-gradient(to right,rgb(173, 32, 98),rgb(148, 37, 105),blue);
+
+}
+
+.col {
+  background-color:rgb(214, 48, 178);
+  width: 300px;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  background: linear-gradient(to right,rgb(173, 32, 98),rgb(148, 37, 105),blue);
+
+}
+
+@media (min-width:0px)and(max-width:767px){
+
+}
+
+body {
+  background-color: rgb(237, 89, 148);
+  background: linear-gradient(to right,rgb(173, 32, 98),rgb(148, 37, 105),blue);
+
+
+}
+
+
+@media (min-width:768px) and (max-width: 1024px) {
+  body {
+  background-color: rgb(156, 12, 129);
+  }
+  }
+
+  .nav ul {
+    flex-direction: column;
+  }
+
+
+@media (min-width:1024px) {
+  body{
+  background-color: rgb(237, 89, 148);
+  color: rgb(181, 67, 119);
+  }
+}
+
+nav ul {
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display:flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color:rgb(189, 85, 121);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color:rgb(133, 29, 91);
+}
+
+
