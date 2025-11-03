@@ -12,14 +12,13 @@ body {
 }
 
 header {
-  background-color:#f3eded;
-  color: #333;
-  background: linear-gradient(to right,rgb(173, 32, 98),rgb(148, 37, 105),blue);
-  padding: 1rem 0;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0 2px 5px;
+background-color: blueviolet;
+color: blue;
+border-radius:20vw ;
+text-align: center;
+align-items: center;
+justify-content: center;
+background:linear-gradient(pink,blueviolet,blue);
 
 }
 
