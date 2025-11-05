@@ -18,7 +18,7 @@ border-radius:20vw ;
 text-align: center;
 align-items: center;
 justify-content: center;
-background:linear-gradient(pink,blueviolet,blue);
+background:linear-gradient(pink,blueviolet,rgb(206, 68, 202)); 
 
 }
 
