@@ -59,13 +59,6 @@ background:linear-gradient(pink,blueviolet,rgb(206, 68, 202));
   clip-path: circle(50%);
 }
 
-.imagen2{
-    max-width: 100px;
-   height: 100px;
-   background-size: cover;
-   clip-path: circle(50%);
-}
-
 .container {
   display: flex;
   justify-content: space-between;
