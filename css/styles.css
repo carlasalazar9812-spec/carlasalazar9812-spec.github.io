@@ -61,7 +61,7 @@ clip-path: circle;
 
 .container {
   display: flex;
-  justify-content:center;
+  justify-content: space-around;
   width: 26ovw;
   margin: 20px auto;
   box-shadow: i;
