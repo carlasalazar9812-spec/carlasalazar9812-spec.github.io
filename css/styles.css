@@ -56,21 +56,12 @@ background:linear-gradient(pink,blueviolet,rgb(206, 68, 202));
 max-width: 300px;
 height: 150px;
 background-size: cover;
-clip-path: circle(50%);
+clip-path: circle;
 }
-
-.imagen_2{
-max-width: 300px;
-height: 150px;
-background-size: cover;
-clip-path: circle(50%);
-}
-
 
 .container {
   display: flex;
   justify-content:center;
-  align-items: center;
   width: 26ovw;
   margin: 20px auto;
   box-shadow: i;
