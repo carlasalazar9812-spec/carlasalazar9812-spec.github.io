@@ -54,9 +54,10 @@ background:linear-gradient(pink,blueviolet,rgb(206, 68, 202));
 
 .imagen{
 max-inline-size: 20vw;
+display: flex;
+justify-content: center;
 height: 150px;
-background-color: aqua;
-clip-path: circle;
+background-image: -moz-linear-gradient(url(../imagen_2.jpg));
 }
 
 .container {
