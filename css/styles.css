@@ -28,7 +28,7 @@ background:linear-gradient(pink,blueviolet,rgb(206, 68, 202));
 }
 
 .parrafo {
-  color: rgb(8, 8, 8);
+  color: rgb(249, 246, 246);
   font-family: Arial, sans-serif;
   font-size: 30px;
   font-weight: bold;
@@ -52,19 +52,18 @@ background:linear-gradient(pink,blueviolet,rgb(206, 68, 202));
   justify-content: flex-start;
 }
 
-.imagen_1{
-max-width: 300px;
+.imagen{
+max-inline-size: 20vw;
 height: 150px;
-background-size: cover;
+background-color: aqua;
 clip-path: circle;
 }
 
 .container {
   display: flex;
   justify-content: space-around;
-  width: 26ovw;
+  width: 26vw;
   margin: 20px auto;
-  box-shadow: i;
   max-width: fit-content;
   background: linear-gradient(to right,rgb(173, 32, 98),rgb(148, 37, 105),blue);
 
@@ -85,7 +84,7 @@ clip-path: circle;
 }
 
 body {
-  background-color: rgb(216, 212, 214);
+  background-color: rgb(163, 41, 161);
   background: linear-gradient(to right,rgb(173, 32, 98),rgb(148, 37, 105),blue);
 
 
@@ -105,9 +104,15 @@ body {
 
 @media (min-width:1024px) {
   body{
-  background-color: rgb(206, 203, 204);
-  color: rgb(221, 216, 218);
+  background-color: rgb(246, 245, 247);
+  color: rgb(254, 253, 254);
   }
+}
+
+
+footer{
+color: aliceblue;
+background: linear-gradient(to right,rgb(173, 32, 98),rgb(148, 37, 105),blue);
 }
 
 nav ul {
@@ -130,7 +135,7 @@ nav a {
 }
 
 nav a:hover {
-  color:rgb(247, 240, 244);
+  color:rgb(151, 20, 94);
 }
 
 
